@@ -1,12 +1,13 @@
 html, body {
   margin: 0;
   padding: 0;
+  /* background-color: orange; */
 }
 main{
     margin: auto;
     margin-top: 20px;
-    width: 0;
-
+    width: 30%;
+    /* background-color: aqua; */
 }
 canvas {
   display: block;
@@ -35,6 +36,6 @@ span{
 main div {
   position: relative;
   /* top: 180px; */
-  left: -50px;
+  /* left: -150px; */
   height:1.5em;
 }

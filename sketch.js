@@ -12,7 +12,7 @@ let ampSelect;
 let wattInput;
 
 function setup() {
-  createCanvas(175, 190);
+  createCanvas(0,0);
   let container = select("#vin");
   let span = createSpan(" Vin ");
   span.parent(container);
@@ -117,7 +117,6 @@ function setup() {
 }
 
 function draw() {
-  background(255);
 }
 
 function vInInputChanged() {compute();}
